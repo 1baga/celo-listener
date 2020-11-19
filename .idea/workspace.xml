@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95bf9814-f04b-45c7-8c3e-9e7050b94c33" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/utils/watcher.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +121,7 @@
       <updated>1605256482892</updated>
       <workItem from="1605256483911" duration="3224000" />
       <workItem from="1605259792016" duration="1005000" />
-      <workItem from="1605691906272" duration="10546000" />
+      <workItem from="1605691906272" duration="11785000" />
     </task>
     <task id="LOCAL-00001" summary="Changed basic route">
       <created>1605692288820</created>
@@ -141,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605775365404</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added listener for cUSD.. it should start when the application is started">
+      <created>1605783402752</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605783402752</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,7 +153,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Changed basic route" />
     <MESSAGE value="Route for adding new addresses for listening. added config.js for holding config details..." />
-    <option name="LAST_COMMIT_MESSAGE" value="Route for adding new addresses for listening. added config.js for holding config details..." />
+    <MESSAGE value="Added listener for cUSD.. it should start when the application is started" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added listener for cUSD.. it should start when the application is started" />
   </component>
   <component name="WindowStateProjectService">
     <state x="458" y="202" width="440" height="397" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605256768336">
@@ -161,10 +165,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="436" y="251" width="484" height="301" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.27.1366.741@0.27.1366.741" timestamp="1605692022836" />
-    <state x="319" y="27" width="717" height="741" key="CommitChangelistDialog2" timestamp="1605775365282">
+    <state x="319" y="27" width="717" height="741" key="CommitChangelistDialog2" timestamp="1605783402647">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="319" y="27" width="717" height="741" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1605775365282" />
+    <state x="319" y="27" width="717" height="741" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1605783402647" />
     <state x="465" y="156" width="426" height="493" key="FileChooserDialogImpl" timestamp="1605692797982">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -189,9 +193,9 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="201" y="31" width="964" height="737" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1605692851208" />
-    <state x="277" y="131" width="802" height="539" key="Vcs.Push.Dialog.v2" timestamp="1605775372692">
+    <state x="277" y="131" width="802" height="539" key="Vcs.Push.Dialog.v2" timestamp="1605783415154">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="277" y="131" width="802" height="539" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1605775372692" />
+    <state x="277" y="131" width="802" height="539" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1605783415154" />
   </component>
 </project>
