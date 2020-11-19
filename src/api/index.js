@@ -1,15 +1,15 @@
-const express = require('express')
+const express = require('express');
 
-const wallet = require('./wallet')
+const wallet = require('./wallet');
 
-const router = express.Router()
+const router = express.Router();
 
 router.get('/', (req, res) => {
   res.json({
     message: 'V1-API good'
-  })
-})
+  });
+});
 
-router.use('/wallet', wallet)
+router.use('/wallet', wallet);
 
-module.exports = router
+module.exports = router;
