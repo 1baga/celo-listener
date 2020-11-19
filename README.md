@@ -1,5 +1,5 @@
 # Celo Listener
-A webapp that listens to transactions on the Celo Blockchain.
+A webapp that listens for token(cUSD) transactions on the Celo Blockchain.
 
 #### How it works
 
