@@ -2,29 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95bf9814-f04b-45c7-8c3e-9e7050b94c33" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/watcher.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/HEAD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/description" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/hooks/applypatch-msg.sample" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/hooks/commit-msg.sample" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/hooks/fsmonitor-watchman.sample" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/hooks/post-update.sample" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/hooks/pre-applypatch.sample" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/hooks/pre-commit.sample" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/hooks/pre-merge-commit.sample" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/hooks/pre-push.sample" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/hooks/pre-rebase.sample" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/hooks/pre-receive.sample" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/hooks/prepare-commit-msg.sample" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/hooks/update.sample" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/info/exclude" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <favorite-branches>
@@ -59,6 +54,8 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="10.19.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="10.17.45" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -66,12 +63,57 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/node_modules/mocha" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.NodeInterpreter" value="$USER_HOME$/.nvm/versions/node/v14.11.0/bin/node" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$USER_HOME$/.nvm/versions/node/v14.11.0/lib/node_modules/prettier" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="run.prettier.on.save" value="true" />
     <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="npm.test">
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="$USER_HOME$/.nvm/versions/node/v14.11.0/bin/node" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="test/api.test.js" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST_FILE</test-kind>
+      <test-file>$PROJECT_DIR$/test/api.test.js</test-file>
+      <method v="2" />
+    </configuration>
+    <configuration name="test/app.test.js" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST_FILE</test-kind>
+      <test-file>$PROJECT_DIR$/test/app.test.js</test-file>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.test" />
+        <item itemvalue="Mocha.test/app.test.js" />
+        <item itemvalue="Mocha.test/api.test.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -82,21 +124,74 @@
       <option name="presentableId" value="Default" />
       <updated>1605256482892</updated>
       <workItem from="1605256483911" duration="3224000" />
-      <workItem from="1605259792016" duration="365000" />
+      <workItem from="1605259792016" duration="1005000" />
+      <workItem from="1605691906272" duration="10546000" />
     </task>
+    <task id="LOCAL-00001" summary="Changed basic route">
+      <created>1605692288820</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605692288820</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Route for adding new addresses for listening. added config.js for holding config details...">
+      <created>1605775365404</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605775365404</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Changed basic route" />
+    <MESSAGE value="Route for adding new addresses for listening. added config.js for holding config details..." />
+    <option name="LAST_COMMIT_MESSAGE" value="Route for adding new addresses for listening. added config.js for holding config details..." />
   </component>
   <component name="WindowStateProjectService">
     <state x="458" y="202" width="440" height="397" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605256768336">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="458" y="202" width="440" height="397" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1366.741@0.27.1366.741" timestamp="1605256768336" />
-    <state x="201" y="31" width="964" height="737" key="SettingsEditor" timestamp="1605257603124">
+    <state x="436" y="251" width="484" height="301" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1605692022836">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="201" y="31" width="964" height="737" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1605257603124" />
+    <state x="436" y="251" width="484" height="301" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.27.1366.741@0.27.1366.741" timestamp="1605692022836" />
+    <state x="319" y="27" width="717" height="741" key="CommitChangelistDialog2" timestamp="1605775365282">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="319" y="27" width="717" height="741" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1605775365282" />
+    <state x="465" y="156" width="426" height="493" key="FileChooserDialogImpl" timestamp="1605692797982">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="465" y="156" width="426" height="493" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1605692797982" />
+    <state width="1343" height="172" key="GridCell.Tab.0.bottom" timestamp="1605692253814">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1343" height="172" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1605692253814" />
+    <state width="1343" height="172" key="GridCell.Tab.0.center" timestamp="1605692253814">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1343" height="172" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1605692253814" />
+    <state width="1343" height="172" key="GridCell.Tab.0.left" timestamp="1605692253813">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1343" height="172" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1605692253813" />
+    <state width="1343" height="172" key="GridCell.Tab.0.right" timestamp="1605692253814">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1343" height="172" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1605692253814" />
+    <state x="201" y="31" width="964" height="737" key="SettingsEditor" timestamp="1605692851208">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="201" y="31" width="964" height="737" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1605692851208" />
+    <state x="277" y="131" width="802" height="539" key="Vcs.Push.Dialog.v2" timestamp="1605775372692">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="277" y="131" width="802" height="539" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1605775372692" />
   </component>
 </project>
